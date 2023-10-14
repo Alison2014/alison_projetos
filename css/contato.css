@@ -1,0 +1,115 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between; /*distribui espaços entre palavras igualmente*/
+    list-style-type: none; /*tira bolinha da palavra*/
+    padding: 16px; /*espaçamento entre margem de cima e a palavra*/
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: orangered;
+    width: 400px;
+    box-shadow: 10px 10px 5px whitesmoke;
+}
+ section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+ form label{
+    margin-bottom: 4px;
+
+}
+
+form input{
+    padding: 10px;
+    outline: none; /*tira a borda da caixa de textp*/
+    border: 0;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+
+}
+
+form textarea{
+    outline: none;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background-color: whitesmoke;
+    color: orangered;
+    border-radius: 16px;
+}
+
+/*pagina do obrigado*/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: orangered;
+    flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color: white;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 16px;
+}

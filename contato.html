@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Sobre mim</a>
+            </li>
+            <li>
+                <a href="projetos.html">Projetos</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+     <section class="contato">
+               <div class="centro">
+                 <h2>Contato</h2>
+                  <form action="https://api.staticforms.xyz/submit" method="post"><!--method "post" è usado para enviar dados para o servidor-->
+                   <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                   <label>Email</label>
+                  <input type="text" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                 <label>Mensagens</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required ></textarea>
+               <button type="submit">Enviar</button>
+
+             <input type="hidden" name="accessKey" value="eecae167-8afd-4190-bd21-5ff8ab020e61">
+           <input type="hidden" name="redirectTo" value="https://alison2014.github.io/alisonsilva/obrigado.html">
+         </form>
+       </div><!--centro-->
+  </section><!--contato-->
+</body>
+</html>
