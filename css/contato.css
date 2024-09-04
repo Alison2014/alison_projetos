@@ -1,5 +1,5 @@
 body{
-    color: white;
+    color: black;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,7 +12,7 @@ ul{
 }
 
 a{
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ a{
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    background-color: orangered;
+    background-color: orange;
     width: 400px;
     box-shadow: 10px 10px 5px whitesmoke;
 }
@@ -45,7 +45,7 @@ a{
 
 form input{
     padding: 10px;
-    outline: none; /*tira a borda da caixa de textp*/
+    outline: none; /*tira a borda da caixa de texto*/
     border: 0;
     margin-bottom: 20px;
     transition: all 0.5s;
@@ -81,7 +81,7 @@ form button{
 }
 form button:hover{
     background-color: whitesmoke;
-    color: orangered;
+    color: black;
     border-radius: 16px;
 }
 
@@ -92,16 +92,16 @@ form button:hover{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: orangered;
+    background-color: orange;
     flex-direction: column;
 }
 .text{
     font-size: 45px;
-    color: white;
+    color: black;
     margin-bottom: 30px;
 }
 .paragrafo{
-    color: white;
+    color: black;
     margin-bottom: 50px;
 }
 .btn{
