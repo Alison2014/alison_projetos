@@ -1,12 +1,68 @@
-body{
-  font-family: Times new, roman, serif;
+/* Estilos gerais para o corpo da página */
+body {
+  font-family: 'Times New Roman', serif;
   background-color: black;
   color: white;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ocupa 100% da altura da janela */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-direction: column;
 }
 
+/* Estilo do título */
+h1 {
+  margin-bottom: 20px; /* Espaço abaixo do título */
+  font-size: 2em; /* Tamanho da fonte maior para títulos */
+}
 
-button{
+/* Estilo do botão */
+button {
    background-color: orangered;
    color: whitesmoke;
+   padding: 12px 24px; /* Tamanho do botão */
+   border: none;
+   border-radius: 8px; /* Bordas arredondadas */
+   font-size: 16px; /* Tamanho da fonte */
+   cursor: pointer; /* Mostra o cursor como ponteiro */
+   transition: background-color 0.3s ease; /* Transição suave para hover */
+}
+
+button:hover {
+   background-color: darkorange; /* Cor de fundo ao passar o mouse */
+}
+
+/* Media Queries para telas menores (móveis e tablets) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Ajusta o tamanho da fonte para telas menores */
+    padding: 10px; /* Adiciona um pouco de padding para não colar nas bordas */
+  }
+
+  button {
+    padding: 10px 20px; /* Ajusta o tamanho do botão */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Reduz o tamanho do título em telas pequenas */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Menor fonte para telas muito pequenas (ex: celulares) */
+  }
+
+  button {
+    padding: 8px 16px; /* Botão ainda menor em telas muito pequenas */
+    font-size: 12px; /* Fonte do botão ainda menor */
+  }
+
+  h1 {
+    font-size: 1.2em; /* Tamanho do título mais compacto */
+  }
 }
