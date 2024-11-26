@@ -9,6 +9,7 @@ ul{
     justify-content: space-between; /*distribui espaços entre palavras igualmente*/
     list-style-type: none; /*tira bolinha da palavra*/
     padding: 16px; /*espaçamento entre margem de cima e a palavra*/
+    
 }
 
 a{
@@ -16,19 +17,18 @@ a{
     text-decoration: none;
 }
 button,perso{
-    width: 90px; 
-    border-color:#ccff33;
-    background-color: #ccff33;
+    width: 100px; 
+    border-color:  #fc5404;
+    background-color: #fc5404;
     color: black;
-
+    border-radius: 8px;
+    cursor: pointer;
 }
-
-
 header img{
     width: 150px;
     height: 150px;
     border-radius: 30%;
-    border: 4px solid #ccff33;
+    border: 4px solid #fc5404;
     animation: flutuar 6s infinite;
 }
 @keyframes flutuar {
@@ -47,8 +47,29 @@ header img{
     text-align: center;
 }
 h1{
-    color: #ccff33;
-    text-align: center
+    color: whitesmoke;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 45x;
+}
+.textoAnimado{
+    font-size: 30px;
+}
+.textoAnimado span{
+    animation: color-change 15s infinite;
+}
+@keyframes color-change {
+    0% {color: #2698e4df;}
+    20% {color: #FFFFFF;}
+    40% {color: #ffff00;}
+    60% {color: #14dad3;}
+    80% {color: #68ef24d0;}
+    100% {color: #e47c26df;}
+}
+.centro{
+    text-align: center;
 }
 
 

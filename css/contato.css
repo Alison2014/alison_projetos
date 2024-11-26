@@ -28,7 +28,7 @@ a{
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    background-color: orange;
+    background-color:  #fc5404;
     width: 400px;
     box-shadow: 10px 10px 5px whitesmoke;
 }
@@ -92,7 +92,7 @@ form button:hover{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #ccff33;
+    background-color:  #fc5404;
     flex-direction: column;
     
 }
